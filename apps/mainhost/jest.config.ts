@@ -1,9 +1,9 @@
 /* eslint-disable */
 export default {
-  displayName: 'two-angular-shells',
+  displayName: 'mainhost',
   preset: '../../jest.preset.js',
   setupFilesAfterEnv: ['<rootDir>/src/test-setup.ts'],
-  coverageDirectory: '../../coverage/apps/two-angular-shells',
+  coverageDirectory: '../../coverage/apps/mainhost',
   transform: {
     '^.+\\.(ts|mjs|js|html)$': [
       'jest-preset-angular',
