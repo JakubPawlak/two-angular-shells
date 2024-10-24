@@ -1,7 +1,7 @@
 import { ModuleFederationConfig } from '@nx/webpack';
 
 const config: ModuleFederationConfig = {
-  name: 'secondaryhost',
+  name: 'myremote',
   exposes: {
     './AppModule': 'apps/secondaryhost/src/app/app.module.ts',
   },
